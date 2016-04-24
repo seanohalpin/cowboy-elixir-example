@@ -28,7 +28,7 @@ defmodule CowboyElixirExample do
           #   :priv_file             -- serve a single file
           #   :cowboy_elixir_example -- application name.  This is used to search for
           #                             the path that priv/ exists in.
-          #   "index.html            -- filename to serve
+          #   "index.html"           -- filename to serve
           {"/", :cowboy_static, {:priv_file, :cowboy_elixir_example, "index.html"}},
 
 
