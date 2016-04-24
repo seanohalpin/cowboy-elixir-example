@@ -40,7 +40,7 @@ defmodule CowboyElixirExample do
           #   :priv_dir              -- serve files from a directory
           #   :cowboy_elixir_example -- application name.  This is used to search for
           #                             the path that priv/ exists in.
-          #   "static_files"         -- directory to look for files in 
+          #   "static_files"         -- directory to look in for files 
           {"/static/[...]", :cowboy_static, {:priv_dir,  :cowboy_elixir_example, "static_files"}},
 
           # Serve a dynamic page with a custom handler
